@@ -1,20 +1,5 @@
 <!DOCTYPE html>
-<!--
 
-DTD = Document Type Definition
-
-O DOCTYPE, ou Declaração de Tipo de Documento, é uma instrução no início de um documento HTML que informa ao navegador a versão do HTML a ser utilizada, garantindo que a página seja renderizada no modo padrão (Standards mode), seguindo as especificações web em vez do antigo e inconsistente modo "quirks". A declaração mais comum é <!DOCTYPE html>, específica para o HTML5, e ela deve ser a primeira linha do código, antes de qualquer outra tag. 
-Função Principal do DOCTYPE:
-
-    Ativar o Modo Padrão:
-    O principal objetivo do DOCTYPE é ativar o modo de renderização padrão do navegador. Isso significa que o navegador se esforça para seguir as especificações do HTML e CSS de forma consistente. 
-
-Evitar o Modo "Quirks":
-Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mode" (modo de peculiaridades). Nesse modo, o navegador tenta emular como navegadores antigos renderizariam a página, o que pode levar a inconsistências visuais e comportamentais. 
-
--->
- 
-<!-- HTML quer dizer Hyper Text Markup Language -->
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" meta name="viewport" content="width=device-width, initial-scale=1.0"> </meta>
@@ -24,26 +9,54 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
 		<header>
 			<h1>Versionamento do HTML5 em uma nova BRANCH</h1>
 			<nav>
-				<a href="./ajuda.html"></a>
-				<a href="./minha-primeira-pagina.html">Minha Página</a>
-				<a href="./sobre.html">Sobre</a>
-				<a href="./produtos/Produtos.html">Produtos</a>
+				<a href="./ajuda.html"></a> |
+				<a href="./minha-primeira-pagina.html">Minha Página</a> |
+				<a href="./sobre.html">Sobre</a> |
+				<a href="./produtos/Produtos.html">Produtos</a> |
 			</nav>
 		</header> 
-		<main>
+		<main title = "texto de exemplo de main">
 			<section>
+				<h2> Introdução ao HTML5</h2>
 				<aside>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</aside>
 			</section>
 			<section>
+				<h3>Novidades do HTML5 </h3>
 				<aside>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</aside>
+			</section>
+			<section>
+				<h2> Estrutura de Listas</h2>
+				<div aria aria-roledescription="Lista de Produtos">
+				<ul style="list-style: none;">
+					<li>Item 1</li>
+					<li>Item 2
+						<ul style="list-style: url('');">
+							<li><img src="./assets/img/lista-de-itens.png " alt="Lista" width="1%" title="Produtos" >Subitem 1</li>
+							<li><img src="./assets/img/lista-de-itens.png " alt="Lista" width="1%" title="Produtos" >Subitem 2</li>
+							<li><img src="./assets/img/lista-de-itens.png " alt="Lista" width="1%" title="Produtos" >Subitem 3</li>
+						</ul>
+					</li>
+					<li>Item 3</li>
+				</ul>
+				</div>
 			</section>
 		</main>
 		<footer>
-			<p>&copy; Todos os direitos reservados - 2025. Minha Página </p>
+			<nav>
+				<ul>
+			<li><a href="https://www.youtube.com/">youtube</a></li>
+			<li><a href="https://www.instagram.com/">instagram</a></li>
+			<li><a href="https://www.linkedin.com/">linkedin</a></li>
+			<li><a href="https://www.facebook.com/">facebook</a></li>
+		    <li><a href="https://csstats.gg/player/76561198817524563">csgostats</a></li>
+			</ul>
+			</nav>
+			<p>&copy; Todos os direitos reservados - 2025. Minha Pá~gina </p>
 		</footer>
 	</body>
 </html>
+<!-- /br Quebra a linha do texto (usar em ultimo caso, quando texto estiver enorme, passivel de perca de nota se o professor pegar sendo usado sem justificativa)-->
